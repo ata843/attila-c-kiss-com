@@ -1,0 +1,80 @@
+.menu-item {
+  animation: menubgback 1s ease-out forwards;
+  box-sizing: border-box;
+  color: #333;
+  cursor: pointer;
+  display: block;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 90px;
+  margin: 5px 0;
+  padding-left: 20px;
+  position: relative;
+  text-decoration: none;
+  text-transform: uppercase;
+
+  span {
+    display: none;
+  }
+
+  &:hover {
+    color: #fff;
+    animation: menubg 1s ease-out forwards;
+  }
+
+  &.home {
+    background: #fff;
+    background: -moz-linear-gradient(left, #fff 0%, #fff 33%, #3ca 66%, #3ca 100%);
+    background: -webkit-linear-gradient(left, #fff 0%, #fff 33%, #3ca 66%, #3ca 100%);
+    background: linear-gradient(to right, #fff 0%, #fff 33%, #3ca 66%, #3ca 100%);
+    background-size: 300%;
+    color: #3ca;
+  }
+
+  &.logos {
+    background: #fff;
+    background: -moz-linear-gradient(left, #fff 0%, #fff 33%, #25a 66%, #25a 100%);
+    background: -webkit-linear-gradient(left, #fff 0%, #fff 33%, #25a 66%, #25a 100%);
+    background: linear-gradient(to right, #fff 0%, #fff 33%, #25a 66%, #25a 100%);
+    background-size: 300%;
+    color: #25a;
+  }
+
+  &.graphics {
+    background: #fff;
+    background: -moz-linear-gradient(left, #fff 0%, #fff 33%, #62c 66%, #62c 100%);
+    background: -webkit-linear-gradient(left, #fff 0%, #fff 33%, #62c 66%, #62c 100%);
+    background: linear-gradient(to right, #fff 0%, #fff 33%, #62c 66%, #62c 100%);
+    background-size: 300%;
+    color: #62c;
+  }
+
+  &.websites {
+    background: #fff;
+    background: -moz-linear-gradient(left, #fff 0%, #fff 33%, #b26 66%, #b26 100%);
+    background: -webkit-linear-gradient(left, #fff 0%, #fff 33%, #b26 66%, #b26 100%);
+    background: linear-gradient(to right, #fff 0%, #fff 33%, #b26 66%, #b26 100%);
+    background-size: 300%;
+    color: #b26;
+  }
+
+  &.contacts {
+    background: #fff;
+    background: -moz-linear-gradient(left, #fff 0%, #fff 33%, #f33 66%, #f33 100%);
+    background: -webkit-linear-gradient(left, #fff 0%, #fff 33%, #f33 66%, #f33 100%);
+    background: linear-gradient(to right, #fff 0%, #fff 33%, #f33 66%, #f33 100%);
+    background-size: 300%;
+    color: #f33;
+  }
+}
+
+@media screen and (min-width: 640px) {
+  .menu-item {
+    font-size: 50px;
+    font-weight: 300;
+
+    span {
+      display: inline;
+    }
+  }
+}

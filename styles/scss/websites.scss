@@ -1,0 +1,28 @@
+section#websites .section-content > div {
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-color: #fff;
+  border: 10px solid #fff;
+  border-radius: 10px;
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.3);
+  display: block;
+  margin: 20px 10px;
+  text-align: center;
+  width: 300px;
+
+  a {
+    color: #333;
+    font-size: 11px;
+    line-height: 1.5;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+
+    img {
+      border: 1px solid #aaa;
+      display: inline-block;
+      width: 100%;
+    }
+  }
+}
